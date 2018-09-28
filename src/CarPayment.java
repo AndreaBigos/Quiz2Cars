@@ -29,21 +29,7 @@ public class CarPayment {
 	}
 	
 
-	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		System.out.print("Enter your total price of car: ");
-		double carPrice = s.nextDouble();
-		System.out.print("Enter your down Payment: ");
-		double downPayment = s.nextDouble();
-		System.out.print("Enter your length of loan: ");
-		double lengthOfLoan = s.nextDouble();
-		System.out.print("Enter your interest rate: ");
-		double interestRate = s.nextDouble();
-		
-		CarPayment pay = new CarPayment(carPrice, downPayment, lengthOfLoan, interestRate);
-		System.out.println(pay.monthlyCarPayment());
-		System.out.println(pay.totalInterestPaid());
-	}
+	
 
 
 	
